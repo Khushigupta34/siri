@@ -1,0 +1,9 @@
+pipeline{
+    agent any
+    stages{
+        stage("First"){
+            steps{
+            echo "hello Gaurav" }
+        }
+    }
+}
